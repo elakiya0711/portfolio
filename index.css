@@ -128,7 +128,7 @@ nav>h1{
 }
 
 #edu{
-    height: 600px;
+    height: auto;
     margin-top: 50px;
 }
 
@@ -144,19 +144,17 @@ nav>h1{
 }
 
 #edu>.box{
-
     background-color: lightgoldenrodyellow;
     margin-bottom: 30px;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 200px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
     box-shadow: 1px 1px 6px black;
-    border-radius: 30px;
-    transition: transform 3s ease;
+    border-radius: 20px;
 }
 
 #edu>.box>h2{
@@ -188,7 +186,7 @@ nav>h1{
 }
 
 #skill{
-    height: 600px;
+    height: auto;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -205,60 +203,9 @@ nav>h1{
     margin-left: 20%;
 }
 
-#skill>.box1{
-    height:15px;
-    width: 60%;
-    background: linear-gradient(to right, lightblue 85%,grey 15%);
-    border-radius: 20px;
-    margin-bottom: 20px ;
-}
-
-#skill>.box2{
-    height:15px;
-    width: 60%;
-    background: linear-gradient(to right, red 80%,grey 20%);
-    border-radius: 20px;
-    margin-bottom: 20px ;
-}
-
-#skill>.box3{
-    height:15px;
-    width: 60%;
-    background: linear-gradient(to right, green 82%,grey 18%);
-    border-radius: 20px;
-    margin-bottom: 20px ;
-}
-
-#skill>.box4{
-    height:15px;
-    width: 60%;
-    background: linear-gradient(to right, orange 65%,grey 35%);
-    border-radius: 20px;
-    margin-bottom: 20px ;
-}
-
-#skill>.box5{
-    height:15px;
-    width: 60%;
-    background: linear-gradient(to right, yellow 80%,grey 20%);
-    border-radius: 20px;
-    margin-bottom: 20px ;
-}
-
-#skill>.box6{
-    height:15px;
-    width: 60%;
-    background: linear-gradient(to right, navy 75%,grey 25%);
-    border-radius: 20px;
-    margin-bottom: 20px ;
-}
-
-#skill>.box7{
-    height:15px;
-    width: 60%;
-    background: linear-gradient(to right, magenta 80%,grey 20%);
-    border-radius: 20px;
-    margin-bottom: 20px ;
+#skill div {
+  width: 80%;
+  max-width: 500px;
 }
 
 #project {
@@ -418,7 +365,22 @@ footer{
     #skill div {
         width: 90%;
     }
+    #about {
+  height: auto;
+  padding: 20px;
+  text-align: center;
 }
+
+#skill h3 {
+  margin-left: 0;
+  align-self: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+}
+
 
 
 
