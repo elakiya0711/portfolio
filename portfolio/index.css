@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.outer{
+    height: 100vh;
+    background-color: white;
+    background-position: center;  
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+nav>ul{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    list-style-type:none ;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 400px;
+    padding-top: 15px;
+    color:darkslategrey;
+
+}
+
+nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+nav>button{
+    margin-right: 10px;
+    background-color: blue;
+    font-size: 20PX;
+    font-weight: bold;
+    border-radius: 20PX;
+    padding: 0px 20px;
+}
+
+nav>button>a{
+    color: white;
+    text-decoration: none;
+}
+nav>h1{
+    padding-left:10px ;
+    padding-top: 5px;
+    color:darkslategrey;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    background: #f9f9f9;
+}
+
+#home>.left {
+    width: 50%;
+}
+
+#home>.left>h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#home>.left>p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+#home>.right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+#home>.right>img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+#home>.right>img:hover {
+    transform: scale(1.05);
+}
+
+
+#about{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:ghostwhite;
+    box-shadow: 1px 1px 6px black;;
+    border-radius: 30px;
+    transition: transform 3s ease;
+    color:darkslategrey;
+}
+#about>h1{
+    margin-bottom: 50px;
+}
+#about>h3{
+    margin-bottom: 30px;
+}
+#about>p{
+    font-size: 20px;
+}
+
+#edu{
+    height: 600px;
+    margin-top: 50px;
+}
+
+#edu>h1{
+    
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:darkslategrey;
+}
+
+#edu>.box{
+
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 30px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 30px;
+    transition: transform 3s ease;
+}
+
+#edu>.box>h2{
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+#edu>.box>.name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#edu>.box>.percent{
+
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+#edu>.box>.yr{
+    
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+#skill>h1{
+    margin-bottom: 50px;
+    color:darkslategrey;
+}
+
+#skill{
+    height: 600px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius:20px ;
+    box-shadow: 1px 1px 3px black;
+    
+}
+
+#skill>h3{
+    margin-bottom: 10px;
+    align-self: flex-start;
+    margin-left: 20%;
+}
+
+#skill>.box1{
+    height:15px;
+    width: 60%;
+    background: linear-gradient(to right, lightblue 85%,grey 15%);
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}
+
+#skill>.box2{
+    height:15px;
+    width: 60%;
+    background: linear-gradient(to right, red 80%,grey 20%);
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}
+
+#skill>.box3{
+    height:15px;
+    width: 60%;
+    background: linear-gradient(to right, green 82%,grey 18%);
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}
+
+#skill>.box4{
+    height:15px;
+    width: 60%;
+    background: linear-gradient(to right, orange 65%,grey 35%);
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}
+
+#skill>.box5{
+    height:15px;
+    width: 60%;
+    background: linear-gradient(to right, yellow 80%,grey 20%);
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}
+
+#skill>.box6{
+    height:15px;
+    width: 60%;
+    background: linear-gradient(to right, navy 75%,grey 25%);
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}
+
+#skill>.box7{
+    height:15px;
+    width: 60%;
+    background: linear-gradient(to right, magenta 80%,grey 20%);
+    border-radius: 20px;
+    margin-bottom: 20px ;
+}
+
+#project {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project>h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    color:darkslategrey;
+}
+
+#project>.box {
+    width: 70%;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#project>.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.15);
+}
+
+#project>.box>h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    line-height: 1.3;
+}
+
+#project>.box>p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+}
+
+#project>.box>.cont {
+    margin-bottom: 12px;
+}
+
+#project>.box>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 119, 204);
+}
+
+#about:hover{
+    transform: scale(1.05);
+}
+
+#edu>.box:hover{
+    transform: scale(1.05);
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color:cornsilk;
+}
+#contact>h1{
+    margin-bottom: 30px;
+}
+#contact>h3{
+    margin-bottom: 20px;
+}
+#contact>ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+}
+
+
+
+
+
+
+
+
