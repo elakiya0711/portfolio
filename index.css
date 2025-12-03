@@ -364,11 +364,6 @@ footer{
 
  #skill div {
   width: 90%;
-  max-width: 500px;
-  min-width: 200px;
-  background: inherit;
-  background-size: cover;
-  border-radius: 20px;
 }
     #about {
   height: auto;
