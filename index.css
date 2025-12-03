@@ -362,9 +362,14 @@ footer{
         padding: 20px;
     }
 
-    #skill div {
-        width: 90%;
-    }
+ #skill div {
+  width: 90%;
+  max-width: 500px;
+  min-width: 200px;
+  background: inherit;
+  background-size: cover;
+  border-radius: 20px;
+}
     #about {
   height: auto;
   padding: 20px;
@@ -380,6 +385,7 @@ img {
   height: auto;
 }
 }
+
 
 
 
