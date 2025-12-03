@@ -28,13 +28,14 @@ nav {
 
 nav>ul{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     font-size: 20px;
     list-style-type:none ;
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 15px;
     color:darkslategrey;
+
 }
 
 nav>ul>li>a{
@@ -341,6 +342,7 @@ nav>h1{
 #contact>ul{
     list-style-type: none;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -418,13 +420,6 @@ footer{
         width: 90%;
     }
 }
-
-
-
-
-
-
-
 
 
 
